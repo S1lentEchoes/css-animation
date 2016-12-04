@@ -2,7 +2,7 @@
 
 This is a simple CSS animation function that I have used for multiple projects.
 
-The first thing that you will probably notice is that it is HEAVILY commented.  This was intentional (yes, even to this extreme degree), mostly just for myself.  I am still fairly new to coding, and multiple times in the past when I have gone back to some of my previous work I would always have hard time understanding what my code meant.  So along with relentlessly detailing everything that I was doing in the code, I also tried to capture the mindset that I had while I was coding it (or rather, why I coded it the way that I did).
+As I stated in all my other repositories - The first thing that you will probably notice is that it is HEAVILY commented.  This was intentional (yes, even to this extreme degree), mostly just for myself.  I am still fairly new to coding, and multiple times in the past when I have gone back to some of my previous work I would always have hard time understanding what my code meant.  So along with relentlessly detailing everything that I was doing in the code, I also tried to capture the mindset that I had while I was coding it (or rather, why I coded it the way that I did).
 
 This is also has the added benefit of helping to remember this information without the need for comments - sort of like when you write something down to remember it, and the act of writing it down is what helped you remember it.  With the only downside being the time taken to write the comments (since minifying removes all of the extraneous content), I saw no reason not to.
 
