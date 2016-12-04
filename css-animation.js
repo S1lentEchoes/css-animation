@@ -52,7 +52,7 @@ function cssAnimate(counterStart, counterEnd, counterValue, counterAdjust, inter
 
     // As long as counterStart is less than counterEnd, this will be looped over
   } else if (counterStart < counterEnd) {
-//alert(counterStart);
+
       counterStart += counterValue;  // Increase the counterStart variable by the counterValue amount (both values were passed in by the calling function);  Increase or decrease counterValue to control the speed of the animation (intervalSetting as well, but this generally gives better control)
 
       adjustedValue = Math.abs(counterAdjust + counterStart);  // counterAdjust is determined by the calling function;  For adding (opening or starting the animation, generally) this usually means adding 0 to the counterStart (since those usually start at 0 and keep adding until the required height/width/etc... is reached);  But for closing or ending the animation this means adding the counterStart to the negative value of counterEnd, which is then converted back to a positive number in order to arrive at the correct value for targetElement's height/width/etc... (since closing animations generally need to start from a high value, say 500 and decrease until 0;  The only way to do this without writing another entire function (or adding exccessive conditionals) is to pass a negative value equal to the targetElements height/width/etc... and add the counterStart ((thereby subtracting the counterStart value from counterEnd, i.e. -500 + 10 = -490, which is then changed back to positive to arrive at the correct value which is 490)))
